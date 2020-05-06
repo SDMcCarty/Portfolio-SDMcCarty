@@ -6,7 +6,7 @@
     font-family: "Open Sans",
     sans-serif; 
     font-size: 20px;
-    color: #444;
+    color: #000000;
     text-align: center;
     line-height: 1.5;
   }
@@ -14,7 +14,7 @@
   nav,
   footer {
     padding: 1% 0;
-    background-color: #aaa;
+    background-color: rgb(6, 8, 8);
   }
   
   nav {
@@ -25,12 +25,40 @@
     z-index: 10;
   }
   
-  
-  
-  header {
-    padding: 12% 0;
+  nav>p {
+    color: #ddd;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+    float: left;
+    font-size: 1.2em;
+  }
+
+  nav>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 30px;
   }
   
+  nav a {
+    text-decoration: none;
+    padding-left: 6px;
+  }
+
+  header {
+    padding: 15% 0;
+  }
+
+  a {
+    color: #074E67;
+  }
+
+  a:hover {
+    color: #DD9933;
+  }
+
   section {
     min-height: 200px;
     padding: 6% 0;
@@ -39,5 +67,9 @@
   
   section:nth-child(even) {
     background-color: #ddd;
+  }
+
+  h1 {
+    font-size: 1.5em;
   }
   
