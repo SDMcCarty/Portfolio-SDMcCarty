@@ -28,10 +28,16 @@
   nav>p {
     color: #ddd;
     display: flex;
-    padding-top: 20px;
+    padding-top: 0.8%;
     padding-left: 10px;
     float: left;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    /*font-family: 'Ranchers', cursive; */
+    font-family: 'Bowlby One SC', cursive;
+    /*letter-spacing: 0.125em; */
+    /*color: #7F1A66; */
+    color: #96337D;
+
   }
 
   nav>ul {
@@ -39,20 +45,22 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-top: 30px;
+    padding-top: 2.5%;
   }
   
   nav a {
     text-decoration: none;
-    padding-left: 6px;
+    padding-right: 10px;
   }
 
   header {
-    padding: 15% 0;
+    padding: 14% 0;
   }
 
   a {
-    color: #074E67;
+    /* color: #074E67; */
+    /*color: #13627C; */
+    color: #05878A;
   }
 
   a:hover {
@@ -73,3 +81,71 @@
     font-size: 1.5em;
   }
   
+
+  @media screen and (min-width: 550px) {
+    nav>p {
+      color: #ddd;
+      display: flex;
+      padding-top: 0.8%;
+      padding-left: 10px;
+      float: left;
+      font-size: 1.3em;
+      font-family: 'Bowlby One SC', cursive;
+      letter-spacing: 0.05em;
+      color: #96337D;
+  
+    }
+  
+    nav>ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-top: 2.5%;
+    }
+    
+    nav a {
+      text-decoration: none;
+      padding-right: 10px;
+    }
+  
+    header {
+      padding: 14% 0;
+    }
+
+  }
+   
+
+  @media screen and (min-width: 1000px) {
+    nav>p {
+      color: #ddd;
+      display: flex;
+      padding-top: 0.8%;
+      padding-left: 10px;
+      float: left;
+      font-size: 1.3em;
+      font-family: 'Bowlby One SC', cursive;
+      letter-spacing: 0.05em;
+      color: #96337D;
+  
+    }
+  
+    nav>ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-top: 2.5%;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+    }
+    
+    nav a {
+      text-decoration: none;
+      padding-right: 10px;
+    }
+  
+    header {
+      padding: 14% 0;
+    }
+
+  }
