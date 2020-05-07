@@ -91,6 +91,7 @@
 
   h1 {
     font-size: 1.5em;
+    color: #05878A;
   }
   
   h2 {
@@ -158,6 +159,11 @@
        text-align: center;
     }
     
+    nav {
+      padding: 1%;
+      float: left;
+    }
+
     nav>p {
       display: flex;
       padding-top: 1.25%;
@@ -180,8 +186,8 @@
     }
     
     .nav-links {
-      display: inline-block;
-      justify-self: left;
+      margin-right: 0;
+      margin-left: 0;
     }
 
     nav a {
@@ -190,9 +196,22 @@
     }
   
     header {
-      padding: 14% 0;
+      padding-top: 14%;
+    }
+    section {
+      max-width: 90%;
     }
 
+    h2 {
+      font-size: 24px;
+    }
+
+    p.about-me-p {
+      font-size: 20px;
+      text-align: left;
+      text-indent: 20px;
+      margin-left: 10%;
+    }
     footer {
       font-size: 10px;
     }
