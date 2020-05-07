@@ -3,12 +3,11 @@
   }
   
   body {
-    font-family: "Open Sans",
-    sans-serif; 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 20px;
     color: #000000;
     text-align: center;
-    line-height: 1.5;
+   
   }
   
   nav,
@@ -26,16 +25,14 @@
   }
   
   nav>p {
-    color: #ddd;
-    display: flex;
-    padding-top: 0.8%;
-    padding-left: 10px;
-    float: left;
+    /* display: flex; */
+    padding-top: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding-left: 10px; */
+    /* float: left; */
     font-size: 1.3em;
-    /*font-family: 'Ranchers', cursive; */
     font-family: 'Bowlby One SC', cursive;
-    /*letter-spacing: 0.125em; */
-    /*color: #7F1A66; */
     color: #96337D;
 
   }
@@ -44,45 +41,68 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    padding-top: 2.5%;
+    justify-content: center; 
+   /*  margin-right: auto;
+    margin-left: auto;
+    padding-top: 1%; */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   
   nav a {
+    margin-right: auto;
+    margin-left: auto;
     text-decoration: none;
-    padding-right: 10px;
+    padding: 5px;
   }
 
   header {
-    padding: 14% 0;
+    padding-top: 125px;
   }
 
   a {
-    /* color: #074E67; */
-    /*color: #13627C; */
     color: #05878A;
   }
 
-  a:hover {
+  a:active {
     color: #DD9933;
   }
 
   section {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #bbb;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
   }
   
   section:nth-child(even) {
-    background-color: #ddd;
+    /* background-color: #ddd; */
   }
 
   h1 {
     font-size: 1.5em;
   }
   
+  h2 {
+    font-size: 1.25em;
+  }
+
+  p.about-me-p {
+    font-size: 16px;
+    text-align: left;
+    text-indent: 20px;
+  }
+
+  img {
+    font-size: 12px;
+  }
 
   @media screen and (min-width: 550px) {
+    body {
+       /* line-height: 1; */
+    }
+    
     nav>p {
       color: #ddd;
       display: flex;
@@ -102,6 +122,7 @@
       flex-direction: row;
       justify-content: flex-end;
       padding-top: 2.5%;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
     }
     
     nav a {
@@ -117,6 +138,10 @@
    
 
   @media screen and (min-width: 1000px) {
+    body {
+      /* line-height: 1; */
+    }
+    
     nav>p {
       color: #ddd;
       display: flex;
