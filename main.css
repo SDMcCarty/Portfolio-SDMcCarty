@@ -40,15 +40,23 @@
 
   nav>ul {
     list-style: none;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: center; 
     margin-right: auto;
     margin-left: auto;
     /*padding-top: 1%; */
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
   }
   
+  .nav-links {
+    display: inline;
+    justify-self: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   nav a {
     margin-right: auto;
     margin-left: auto;
@@ -80,10 +88,6 @@
     margin-right: auto;
     /* max-width: 90%; */
   }
-  
-  section:nth-child(even) {
-    /* background-color: #ddd; */
-  }
 
   h1 {
     font-size: 1.5em;
@@ -96,7 +100,7 @@
 
   p.about-me-p {
     font-size: 16px;
-    text-align: left;
+    text-align: center;
     text-indent: 20px;
   }
 
@@ -137,20 +141,26 @@
     color: #DD9933;
   }
 
+  .contact-list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   footer {
-    font-size: 10px;
+    font-size: 8px;
     color: #05878A;
   }
 
   @media screen and (min-width: 550px) {
     body {
        /* line-height: 1; */
-       /* max-width: 85%; */
+       max-width: 85%;
+       text-align: center;
     }
     
     nav>p {
       display: flex;
-      padding-top: 0.8%;
+      padding-top: 1.25%;
       padding-left: 10px;
       float: left;
       font-size: 1.3em;
@@ -164,11 +174,16 @@
       list-style: none;
       display: flex;
       flex-direction: row;
-      justify-content: flex-end;
+      justify-content: flex-end; 
       padding-top: 2.5%;
       font-family: 'M PLUS Rounded 1c', sans-serif;
     }
     
+    .nav-links {
+      display: inline-block;
+      justify-self: left;
+    }
+
     nav a {
       text-decoration: none;
       padding-right: 10px;
@@ -178,6 +193,9 @@
       padding: 14% 0;
     }
 
+    footer {
+      font-size: 10px;
+    }
   }
    
 
@@ -216,6 +234,10 @@
   
     header {
       padding: 14% 0;
+    }
+
+    footer {
+      font-size: 10px;
     }
 
   }
