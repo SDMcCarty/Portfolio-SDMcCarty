@@ -190,12 +190,17 @@
     header {
       padding-top: 14%;
     }
+
+    h1 {
+      font-size: 1.6em;
+    }
+
     section {
       max-width: 90%;
     }
 
     h2 {
-      font-size: 24px;
+      font-size: 26px;
     }
 
     p.about-me-p {
@@ -204,8 +209,20 @@
       text-indent: 20px;
     }
 
+    a.link-to-project {
+      font-size: 30px;
+    }
+
+    p.programs {
+      font-size: 30px;
+    }
+
     p.project-p {
       font-size: 20px;
+    }
+
+    a.contact-link {
+      font-size: 30px;
     }
 
     footer {
@@ -248,8 +265,26 @@
       text-decoration: none;
       padding-right: 10px;
     }
-  
-  
+    
+    h1 {
+      font-size: 2.2em;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    p.programs {
+      font-size: 35px;
+    }
+
+    a.link-to-project {
+      font-size: 35px;
+    }
+
+    a.contact-link {
+      font-size: 35px;
+    }
 
     header {
       padding-top: 14%;
