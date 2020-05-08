@@ -12,7 +12,7 @@
    
   }
   
-  section {
+  section, hr {
     max-width: 90%;
   }
 
@@ -154,7 +154,7 @@
   }
 
   span.emphasis {
-    font-weight: 500;
+    font-weight: 600;
   }
 
   footer {
@@ -167,7 +167,7 @@
        text-align: center;
     }
 
-    section {
+    section, hr {
       max-width: 85%;
     }
     
@@ -215,7 +215,7 @@
       font-size: 1.6em;
     }
 
-    section {
+    section, hr {
       max-width: 90%;
     }
 
