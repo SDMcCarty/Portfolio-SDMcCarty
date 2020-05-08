@@ -129,6 +129,10 @@
     display: flex;
     justify-content: space-evenly;
   }
+
+  a.link-to-project {
+    text-decoration: none;
+  }
   
   a > i:hover {
     color: #DD9933;
@@ -142,6 +146,7 @@
   .contact-link {
     display: block;
     line-height: 1.6;
+    text-decoration: none;
   }
 
   span.emphasis {
